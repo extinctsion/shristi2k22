@@ -4,28 +4,174 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@100&display=swap" rel="stylesheet">
 
 
     <title>SHRISTI 2k21 | Web App Development</title>
+    <style>
+      
+        .dropbtn {
+
+  color: black;
+  padding: 16px;
+  font-size: 18px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.register{
+   
+  background-color: white;
+  border: 1px solid black;
+  
+  color: black;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  border-radius:12px;
+  
+  
+}
+.login{
+  
+  background-color: white;
+  font-size: 18px;
+  padding-top: 15px;
+  color: black;
+  
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  
+  
+  
+}
+
+
+.big{
+  
+  font-size:500%;
+}
+.snap{
+  font-size: 200%;
+}
+.heroimg{
+  size: 500px;
+}
+.learn{
+  background-color: white;
+  border: 3px solid black;
+  right: 150px;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius:12px;
+  align-self: center;
+  
+}
+
+.img{
+  padding-top: 10%;
+  float: right;
+}
+    </style>
 
   </head>
 
   <body>
+    <header>  
+    <img src="images/logo.svg">
+   
+    <div class="dropdown">
+      <button class="dropbtn">Features  <img src="images/icon-arrow-down.svg"></button>
+      <div class="dropdown-content">
+        <a href="#"><img src="images/icon-todo.svg" style="padding-right:10px">Todo List</a>
+        <a href="#"><img src="images/icon-calendar.svg" style="padding-right:10px">Calenders</a>
+        <a href="#"><img src="images/icon-reminders.svg" style="padding-right:10px">Reminders</a>
+        <a href="#"><img src="images/icon-planning.svg" style="padding-right:10px">Planning</a>
+      </div>
+    </div>
+   
+    <div class="dropdown">
+      <button class="dropbtn">Company <img src="images/icon-arrow-down.svg"></button>
+      <div class="dropdown-content">
+        <a href="#">History</a>
+        <a href="#">Our Team</a>
+        <a href="#">Blog</a>
+      </div>
+    </div>
+  
+  
+    <div class="dropdown">
+      <button class="dropbtn">   Careers</button>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">   About</button>
+    </div>
 
-    Features
-    Company
-    Careers
-    About
+      <div class="login" class="dropbtn"style="float: right" >Login &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;<button class="register"style="float: right"> Register</button></div>
+  
+  </header>
 
-    Login
-    Register
 
-    Make remote work
+   
+   <div class="img"><img src="images/image-hero-desktop.png" width="500" 
+    height="700"></div>
+     <div style="padding: 10%"><p class ="big"> <strong>Make<br> remote work</strong></p>
+         
 
-    Get your team in sync, no matter your location. Streamline processes,
-    create team rituals, and watch productivity soar.
+    <h5 style="color: grey; font-size: medium;">Get your team in sync, no matter your location.<br> Streamline processes,
+      create team rituals, and<br> watch productivity soar.</h5>
+    
+      <div><button class="learn"><blockquote> Learn more</blockquote></button></div>
 
-    Learn more
+      <br>
+      <br>
+
+     <div > <img src="images/client-databiz.svg" style="padding:15px;">
+      <img src="images/client-audiophile.svg" style="padding:15px;">
+      <img src="images/client-meet.svg" style="padding:15px;">
+      <img src="images/client-maker.svg" style="padding:15px;">
+    </div>
+    </div>
+    </div>
+
+
+
+    
 
 
   </body>
